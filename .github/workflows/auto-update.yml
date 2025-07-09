@@ -60,6 +60,7 @@ jobs:
             echo "identical=$identical" >> $GITHUB_OUTPUT
           else
             echo "identical=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Find latest open auto-update PR
         id: find_pr
