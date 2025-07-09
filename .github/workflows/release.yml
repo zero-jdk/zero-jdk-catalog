@@ -1,0 +1,46 @@
+name: Release JDK Catalog
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'catalog.json'
+  workflow_dispatch:
+
+jobs:
+  release-catalog:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine next version
+        id: version
+        run: |
+          today=$(date +'%Y.%m.%d')
+
+          # List all tags for today, sorted by revision
+          tags=$(git tag -l "$today.*" | sort -t. -k4,4n)
+          if [ -z "$tags" ]; then
+            version="$today.0"
+          else
+            last_tag=$(echo "$tags" | tail -1)
+            rev=$(echo "$last_tag" | awk -F. '{print $4}')
+            rev=$((rev + 1))
+            version="$today.$rev"
+          fi
+
+          echo "Computed version: $version"
+          echo "version=$version" >> $GITHUB_OUTPUT
+
+
+      - name: JReleaser full-release
+        uses: jreleaser/release-action@v2
+        env:
+          JRELEASER_PROJECT_VERSION: ${{ steps.version.outputs.version }}
+          JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

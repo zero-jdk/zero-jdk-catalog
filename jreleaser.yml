@@ -1,0 +1,28 @@
+project:
+  name: jdk-catalog
+  description: "Automated JDK catalog release"
+  inceptionYear: 2025
+  versionPattern: CHRONVER
+  authors:
+    - Julien May
+  license: Apache-2.0
+
+assemble:
+  archive:
+    catalog:
+      active: ALWAYS
+      formats: [GZ]
+      files:
+        - catalog.json
+
+checksums:
+  individual:
+    - algorithm: SHA_256
+
+release:
+  github:
+    enabled: true
+    draft: false
+    prerelease: false
+    changelog:
+      enabled: false
