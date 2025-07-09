@@ -20,7 +20,3 @@ assemble:
 release:
   github:
     enabled: true
-    draft: false
-    prerelease: false
-    changelog:
-      enabled: false
