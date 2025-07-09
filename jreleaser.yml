@@ -11,7 +11,7 @@ assemble:
   archive:
     catalog:
       active: ALWAYS
-      formats: [zip]
+      formats: [ ZIP ]
       attachPlatform: false
       archiveName: 'catalog-{{projectVersion}}'
       artifacts:
