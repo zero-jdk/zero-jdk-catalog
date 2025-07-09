@@ -11,13 +11,11 @@ assemble:
   archive:
     catalog:
       active: ALWAYS
-      formats: [GZ]
-      files:
-        - catalog.json
-
-checksums:
-  individual:
-    - algorithm: SHA_256
+      formats: [zip]
+      attachPlatform: false
+      archiveName: 'catalog-{{projectVersion}}'
+      artifacts:
+        - path: catalog.json
 
 release:
   github:
