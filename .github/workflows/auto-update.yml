@@ -48,7 +48,7 @@ jobs:
           git fetch origin ${{ steps.find_pr.outputs.pr_branch }}:${{ steps.find_pr.outputs.pr_branch }}
           git checkout ${{ steps.find_pr.outputs.pr_branch }}
 
-          result=$(.github/scripts/compare-catalog.sh catalog.json ../new_catalog.json)
+          result=$(.github/scripts/compare-catalog.sh catalog.json new_catalog.json)
 
           echo "identical=$result" >> $GITHUB_OUTPUT
 
