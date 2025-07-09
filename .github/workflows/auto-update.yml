@@ -18,97 +18,71 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Download data from Foojay
+      - name: Download and process Foojay data
         run: |
-          curl --connect-timeout 30 --max-time 60 -fsSL "https://api.foojay.io/disco/v3.0/packages?package_type=jdk&directly_downloadable=true&archive_type=tar.gz&archive_type=zip&archive_type=tgz&operating_system=linux&operating_system=macos" -o packages.json 2>/dev/null
-          curl --connect-timeout 30 --max-time 60 -fsSL "https://api.foojay.io/disco/v3.0/distributions" -o distributions.json 2>/dev/null
-
-      - name: Process catalog data
-        run: |
-          jq --slurpfile dist distributions.json '
-            def rank: { "tar.gz":0, "tgz":1, "tar.xz":2, "zip":3 }[.] ;
-            [ .result[] as $pkg
-              | ($dist[0].result[] | select(.api_parameter == $pkg.distribution)) as $d
-              | {
-                  distribution: $d.name,
-                  distribution_version: $pkg.distribution_version,
-                  java_version: $pkg.java_version,
-                  major_version: $pkg.major_version,
-                  javafx_bundled : $pkg.javafx_bundled,
-                  identifier: ($pkg.distribution + "-" + $pkg.distribution_version + (if $pkg.javafx_bundled then "-fx" else "" end)),
-                  support: (if ($pkg.term_of_support|ascii_downcase) == "sts" then "Non-LTS" else "LTS" end),
-                  link: $d.official_uri,
-                  operating_system: $pkg.operating_system,
-                  architecture: $pkg.architecture,
-                  indirect_download_uri: $pkg.links.pkg_download_redirect,
-                  archive_type: $pkg.archive_type
-                }
-            ]
-            | sort_by([ .identifier, (.archive_type | rank) ])
-            | unique_by(.identifier, .operating_system, .architecture)
-          ' packages.json > new_catalog.json
+          .github/scripts/process-catalog.sh new_catalog.json
 
       - name: Compare with current catalog.json
         id: main_diff
         run: |
-          if [ -f catalog.json ]; then
-            jq --slurpfile b new_catalog.json \
-              'sort_by(.identifier + "-" + .operating_system + "-" + .architecture) ==
-               ($b[0] | sort_by(.identifier + "-" + .operating_system + "-" + .architecture))' \
-              catalog.json > identical.txt
-            identical=$(cat identical.txt)
-            echo "identical=$identical" >> $GITHUB_OUTPUT
-          else
-            echo "identical=false" >> $GITHUB_OUTPUT
-          fi
+          result=$(.github/scripts/compare-catalog.sh catalog.json new_catalog.json)
+
+          echo "identical=$result" >> $GITHUB_OUTPUT
 
       - name: Find latest open auto-update PR
         id: find_pr
-        if: steps.main_diff.outputs.identical == 'false'
+        if: steps.main_diff.outputs.identical == 'true'
         run: |
           gh pr list --label "auto-update" --state open --json number,headRefName,createdAt \
             --jq 'sort_by(.createdAt) | reverse | .[0] // {}' > pr.json
+
           echo "pr_number=$(jq -r '.number // ""' pr.json)" >> $GITHUB_OUTPUT
           echo "pr_branch=$(jq -r '.headRefName // ""' pr.json)" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ github.token }}
 
-      - name: Checkout and compare with latest PR branch
+      - name: Checkout branch from latest PR and compare catalogs
         if: steps.find_pr.outputs.pr_number != ''
         id: pr_diff
         run: |
           git fetch origin ${{ steps.find_pr.outputs.pr_branch }}:${{ steps.find_pr.outputs.pr_branch }}
           git checkout ${{ steps.find_pr.outputs.pr_branch }}
-          if [ ! -f catalog.json ]; then
-            echo "identical=false" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-          jq --slurpfile b new_catalog.json \
-            'sort_by(.identifier + "-" + .operating_system + "-" + .architecture) ==
-             ($b[0] | sort_by(.identifier + "-" + .operating_system + "-" + .architecture))' \
-            catalog.json > identical.txt
-          identical=$(cat identical.txt)
-          echo "identical=$identical" >> $GITHUB_OUTPUT
 
-      - name: Update catalog and push branch
+          result=$(.github/scripts/compare-catalog.sh catalog.json ../new_catalog.json)
+
+          echo "identical=$result" >> $GITHUB_OUTPUT
+
+      - name: Update catalog, create branch and push
         if: steps.find_pr.outputs.pr_number == '' || steps.pr_diff.outputs.identical == 'false'
         run: |
+          # Ensure we are on the main branch
           git checkout main
-          cp new_catalog.json catalog.json
+
+          # Make our workflow action a git user 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Update existing catalog
+          cp new_catalog.json catalog.json
+
+          # Commit
           branch="auto/update-catalog-$(date +%s)"
           git checkout -b "$branch"
           git add catalog.json
           git commit -m "Auto-update catalog.json"
+
+          # Push
           git push origin "$branch"
+
           echo "branch_name=$branch" >> $GITHUB_ENV
 
       - name: Create PR
         if: steps.find_pr.outputs.pr_number == '' || steps.pr_diff.outputs.identical == 'false'
         run: |
+          today=$(date +'%Y-%m-%d')
+
           gh pr create \
-            --title "Auto-update JDK catalog" \
+            --title "Auto-update JDK catalog $today" \
             --body "Automated update from workflow" \
             --head "$branch" \
             --base main \
