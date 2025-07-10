@@ -25,4 +25,4 @@ release:
     enabled: true
     changelog:
       enabled: false
-    tagName: `{{projectVersion}}`
+    tagName: '{{projectVersion}}'
