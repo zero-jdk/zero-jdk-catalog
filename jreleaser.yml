@@ -20,3 +20,4 @@ assemble:
 release:
   github:
     enabled: true
+
