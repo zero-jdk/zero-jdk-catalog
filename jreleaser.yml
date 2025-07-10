@@ -5,6 +5,9 @@ project:
   versionPattern: CHRONVER
   authors:
     - Julien May
+  links:
+    homepage: https://github.com/zero-jdk/zero-jdk-catalog
+    documentation: https://github.com/zero-jdk/zero-jdk-catalog
   license: Apache-2.0
 
 assemble:
