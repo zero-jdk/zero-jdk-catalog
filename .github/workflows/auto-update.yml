@@ -53,7 +53,7 @@ jobs:
           echo "identical=$result" >> $GITHUB_OUTPUT
 
       - name: Update catalog, create branch and push
-        if: steps.pr_diff.outputs.identical == 'false'
+        if: steps.main_diff.outputs.identical == 'false' || steps.pr_diff.outputs.identical == 'false'
         run: |
           # Ensure we are on the main branch
           git checkout main
@@ -77,7 +77,7 @@ jobs:
           echo "branch_name=$branch" >> $GITHUB_ENV
 
       - name: Create PR
-        if: steps.pr_diff.outputs.identical == 'false'
+        if: env.branch_name != ''
         run: |
           today=$(date +'%Y-%m-%d')
 
