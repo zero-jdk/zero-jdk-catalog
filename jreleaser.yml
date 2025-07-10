@@ -23,4 +23,5 @@ assemble:
 release:
   github:
     enabled: true
-
+    changelog:
+      enabled: false
