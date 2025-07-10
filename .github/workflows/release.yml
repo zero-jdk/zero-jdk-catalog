@@ -39,6 +39,14 @@ jobs:
           echo "version=$version" >> $GITHUB_OUTPUT
 
 
+      - name: JReleaser assemble
+        uses: jreleaser/release-action@v2
+        env:
+          JRELEASER_PROJECT_VERSION: ${{ steps.version.outputs.version }}
+          JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          arguments: 'assemble'
+
       - name: JReleaser full-release
         uses: jreleaser/release-action@v2
         env:
