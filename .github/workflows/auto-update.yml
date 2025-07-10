@@ -31,7 +31,7 @@ jobs:
 
       - name: Find latest open auto-update PR
         id: find_pr
-        if: steps.main_diff.outputs.identical == 'true'
+        if: steps.main_diff.outputs.identical == 'false'
         run: |
           gh pr list --label "auto-update" --state open --json number,headRefName,createdAt \
             --jq 'sort_by(.createdAt) | reverse | .[0] // {}' > pr.json
@@ -53,7 +53,7 @@ jobs:
           echo "identical=$result" >> $GITHUB_OUTPUT
 
       - name: Update catalog, create branch and push
-        if: steps.find_pr.outputs.pr_number == '' || steps.pr_diff.outputs.identical == 'false'
+        if: steps.main_diff.outputs.identical == 'false' || steps.pr_diff.outputs.identical == 'false'
         run: |
           # Ensure we are on the main branch
           git checkout main
@@ -77,7 +77,7 @@ jobs:
           echo "branch_name=$branch" >> $GITHUB_ENV
 
       - name: Create PR
-        if: steps.find_pr.outputs.pr_number == '' || steps.pr_diff.outputs.identical == 'false'
+        if: env.branch_name != ''
         run: |
           today=$(date +'%Y-%m-%d')
 
