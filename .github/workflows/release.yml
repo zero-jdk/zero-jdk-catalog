@@ -27,7 +27,7 @@ jobs:
           # List all tags for today, sorted by revision
           tags=$(git tag -l "$today.*" | sort -t. -k4,4n)
           if [ -z "$tags" ]; then
-            version="$today.0"
+            version="$today"
           else
             last_tag=$(echo "$tags" | tail -1)
             rev=$(echo "$last_tag" | awk -F. '{print $4}')

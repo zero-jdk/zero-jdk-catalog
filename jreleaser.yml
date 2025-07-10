@@ -12,10 +12,10 @@ assemble:
     catalog:
       active: ALWAYS
       formats: [ ZIP ]
-      attachPlatform: false
       archiveName: 'catalog-{{projectVersion}}'
-      artifacts:
-        - path: catalog.json
+      fileSets:
+        - input: .
+          includes: [ catalog.json ]
 
 release:
   github:
