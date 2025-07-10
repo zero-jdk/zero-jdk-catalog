@@ -25,7 +25,7 @@ jobs:
           today=$(date +'%Y.%m.%d')
 
           # List all tags for today, sorted by revision
-          tags=$(git tag -l "$today.*" | sort -t. -k4,4n)
+          tags=$(git tag -l | grep -E "$today.*" | sort -t. -k4,4n)
           if [ -z "$tags" ]; then
             version="$today"
           else
