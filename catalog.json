@@ -86689,20 +86689,6 @@
   },
   {
     "distribution": "ZuluPrime",
-    "distribution_version": "22.7.1",
-    "java_version": "8.0.345+8",
-    "major_version": 8,
-    "javafx_bundled": false,
-    "identifier": "zulu_prime-22.7.1",
-    "support": "LTS",
-    "link": "https://www.azul.com/products/prime/stream-download/",
-    "operating_system": "linux",
-    "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/ced9408b8837847025444d74c44f916e/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "ZuluPrime",
     "distribution_version": "22.8",
     "java_version": "17.0.4.1",
     "major_version": 17,
@@ -87356,7 +87342,7 @@
     "link": "https://www.azul.com/products/prime/stream-download/",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/5417d5f209cf06d91894523bf057347d/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/bf8815bb1af86dee9836d06c3227ff21/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -87426,7 +87412,7 @@
     "link": "https://www.azul.com/products/prime/stream-download/",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/d81a541b043f40763d3db82122caf9d4/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/63a75a3529a467ef6dc2874a0a2357f9/redirect",
     "archive_type": "tar.gz"
   },
   {
