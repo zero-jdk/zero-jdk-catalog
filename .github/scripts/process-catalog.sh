@@ -32,6 +32,6 @@ jq --slurpfile dist distributions.json '
         archive_type: $pkg.archive_type
       }
   ]
-  | sort_by([ .identifier, (.archive_type | rank) ])
+  | sort_by([ .identifier, .java_version, .operating_system, .architecture, (.archive_type | rank) ])
   | unique_by(.identifier, .operating_system, .architecture)
 ' packages.json > "$out"
