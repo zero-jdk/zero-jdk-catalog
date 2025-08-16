@@ -2165,6 +2165,20 @@
     "support": "Non-LTS",
     "link": "https://adoptopenjdk.net/",
     "operating_system": "linux",
+    "architecture": "arm",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/b32f97ae8271ef6ea2dbd1a6c62842d3/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "AOJ",
+    "distribution_version": "16.0.1",
+    "java_version": "16.0.1",
+    "major_version": 16,
+    "javafx_bundled": false,
+    "identifier": "aoj-16.0.1",
+    "support": "Non-LTS",
+    "link": "https://adoptopenjdk.net/",
+    "operating_system": "linux",
     "architecture": "ppc64le",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/3f534c3ad35399b33a2043d1d9169685/redirect",
     "archive_type": "tar.gz"
@@ -3539,6 +3553,20 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/91eabd5a5f44fbaf7be7bf3739581750/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "AOJ OpenJ9",
+    "distribution_version": "11.0.11",
+    "java_version": "11.0.11",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "aoj_openj9-11.0.11",
+    "support": "LTS",
+    "link": "https://adoptopenjdk.net/",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/7fcfe6f64d37c4b92270342efe340d9a/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -5413,6 +5441,20 @@
     "support": "LTS",
     "link": "https://adoptopenjdk.net/",
     "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/3354a062946011901e463759af0f4d30/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "AOJ OpenJ9",
+    "distribution_version": "8.0.282",
+    "java_version": "8.0.282",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "aoj_openj9-8.0.282",
+    "support": "LTS",
+    "link": "https://adoptopenjdk.net/",
+    "operating_system": "linux",
     "architecture": "ppc64le",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/4313563b5b0725c452ef6df250602984/redirect",
     "archive_type": "tar.gz"
@@ -5876,7 +5918,7 @@
     "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/f2ea8e927ca95cb90b0982a28f2f8d8d/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/06ffc9862d6885a75626853ce52de1b8/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -5918,7 +5960,7 @@
     "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
     "operating_system": "linux",
     "architecture": "aarch64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/d0772faee78a94eb6197eba4667deb55/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/31640ea021377d9400362a21043490ba/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -6045,6 +6087,34 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/d6d0341a49f4d43b5a10ac8daf7d0a34/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Bi Sheng",
+    "distribution_version": "11.0.28",
+    "java_version": "11.0.28",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "bisheng-11.0.28",
+    "support": "LTS",
+    "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/1e32208bc7895e1c38cb82db75afe04c/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Bi Sheng",
+    "distribution_version": "11.0.28",
+    "java_version": "11.0.28",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "bisheng-11.0.28",
+    "support": "LTS",
+    "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/266f7b08ff735fd8d0d7c59671151f92/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -6184,7 +6254,7 @@
     "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/8f26cd0349af04fe8c0380e6b670826d/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/2a0cdbfb6055bafe0184d860ef40fcc0/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -6269,6 +6339,34 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/58ba758d66d275e2afcbb5acef7a3c29/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Bi Sheng",
+    "distribution_version": "17.0.16",
+    "java_version": "17.0.16",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "bisheng-17.0.16",
+    "support": "LTS",
+    "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/499867c0fd5245c7292efb8d8fb6efdf/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Bi Sheng",
+    "distribution_version": "17.0.16",
+    "java_version": "17.0.16",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "bisheng-17.0.16",
+    "support": "LTS",
+    "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/b2b8901989ac279a416f9d2d789f6fb6/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -6633,6 +6731,34 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/12dbc2d1976f9670fa1235541ebdbcd8/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Bi Sheng",
+    "distribution_version": "21.0.8",
+    "java_version": "21.0.8",
+    "major_version": 21,
+    "javafx_bundled": false,
+    "identifier": "bisheng-21.0.8",
+    "support": "LTS",
+    "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/aae4fa5c7d5daec16106313971bdea7a/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Bi Sheng",
+    "distribution_version": "21.0.8",
+    "java_version": "21.0.8",
+    "major_version": 21,
+    "javafx_bundled": false,
+    "identifier": "bisheng-21.0.8",
+    "support": "LTS",
+    "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/d9a286fd7963d7b781e02f46eab3f97e/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -7137,6 +7263,34 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/097654b003bc717601a1e5d4b727bcd0/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Bi Sheng",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "bisheng-8.0.462",
+    "support": "LTS",
+    "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/6b19326ad282d52e88674c05afafa4ee/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Bi Sheng",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "bisheng-8.0.462",
+    "support": "LTS",
+    "link": "https://www.hikunpeng.com/en/developer/devkit/compiler?data=JDK",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/28f9d3dfe1e7a4d4dedea72a1527c564/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -20575,6 +20729,20 @@
     "support": "Non-LTS",
     "link": "https://www.graalvm.org/",
     "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/69e8b388851907eba8428b77b19e073b/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "GraalVM CE 17",
+    "distribution_version": "22.1",
+    "java_version": "22.1",
+    "major_version": 22,
+    "javafx_bundled": false,
+    "identifier": "graalvm_ce17-22.1",
+    "support": "Non-LTS",
+    "link": "https://www.graalvm.org/",
+    "operating_system": "linux",
     "architecture": "amd64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/731a482b4dd4a5176958fe643d1f1ea0/redirect",
     "archive_type": "tar.gz"
@@ -25033,6 +25201,62 @@
   },
   {
     "distribution": "Kona",
+    "distribution_version": "11.0.28",
+    "java_version": "11.0.28+1",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "kona-11.0.28",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/9c73bb7999bf2ff5662b58e7cb32c078/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "11.0.28",
+    "java_version": "11.0.28+1",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "kona-11.0.28",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c605056a332a067fc35e0e667c7ae4e3/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "11.0.28",
+    "java_version": "11.0.28+1",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "kona-11.0.28",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/190bda84b5c2a01718f0df81005885c2/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "11.0.28",
+    "java_version": "11.0.28+1",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "kona-11.0.28",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/4eca1a76e76ed358eff03d36a1ed7daf/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
     "distribution_version": "11.0.8",
     "java_version": "11.0.8+3",
     "major_version": 11,
@@ -25407,6 +25631,62 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/5b2a456ae3c3858a8dda5bb64188091c/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "17.0.16",
+    "java_version": "17.0.16+1",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "kona-17.0.16",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/1812b13c509ce893762597be74f30d18/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "17.0.16",
+    "java_version": "17.0.16+1",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "kona-17.0.16",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/ad58818a2b39c29967302295453a2d67/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "17.0.16",
+    "java_version": "17.0.16+1",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "kona-17.0.16",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/2c90728f7196319a5ea06e991efa2231/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "17.0.16",
+    "java_version": "17.0.16+1",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "kona-17.0.16",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c5f3e14bf4d96537174d6059fb482b25/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -26275,6 +26555,62 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/d33a25c18c096dda359ad02b7cf07858/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "21.0.8",
+    "java_version": "21.0.8+1",
+    "major_version": 21,
+    "javafx_bundled": false,
+    "identifier": "kona-21.0.8",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/f89c7832458be6456ccd03e81f7d838c/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "21.0.8",
+    "java_version": "21.0.8+1",
+    "major_version": 21,
+    "javafx_bundled": false,
+    "identifier": "kona-21.0.8",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/b955585378d6ba2d8d36229bd2ce09a0/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "21.0.8",
+    "java_version": "21.0.8+1",
+    "major_version": 21,
+    "javafx_bundled": false,
+    "identifier": "kona-21.0.8",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/95e4a741552c439ed75a56d392e9fe07/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "21.0.8",
+    "java_version": "21.0.8+1",
+    "major_version": 21,
+    "javafx_bundled": false,
+    "identifier": "kona-21.0.8",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/54009106c4d46b505ceb03e9cd5b752a/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -27199,6 +27535,62 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/7eeb8191960a1a23ab854e96504fd82b/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "kona-8.0.462",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/9c96328b46963eb890e1b0cf7084f9fa/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "kona-8.0.462",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/060496829bc20412b6892f1c8774d147/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "kona-8.0.462",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/dc59ccf6dfed64fbc123f4ca218d6cee/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Kona",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "kona-8.0.462",
+    "support": "LTS",
+    "link": "https://tencent.github.io/konajdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/907bf8d8d24ebc2b37caed3aac24d04d/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -30488,7 +30880,7 @@
     "link": "https://bell-sw.com/",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/f42e43e1b4cf53390dddef72b309d4f0/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/a4648b09b5ec47851401c32e4d33bfad/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -31804,7 +32196,7 @@
     "link": "https://bell-sw.com/",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c1adbbe1bad1906891b1642191b95118/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/22d4f02ee935c48c795c3cd5e8aed688/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -32126,8 +32518,8 @@
     "link": "https://bell-sw.com/",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/fbe767e3b61198250c796a5cdf494b5e/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/dce6c46d8a87a9dcd3365ccdcd1e3610/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Liberica Native",
@@ -33890,8 +34282,8 @@
     "link": "https://bell-sw.com/",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/71af704956b369f0970e3fb4971f0b9d/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/52cd8f8c765b4aaf4a578b29547b413c/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Liberica Native",
@@ -35599,6 +35991,48 @@
     "operating_system": "macos",
     "architecture": "aarch64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/bbf98f5b22d13608e596db8ceea09332/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Mandrel",
+    "distribution_version": "24.2.2",
+    "java_version": "24.2.2",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "mandrel-24.2.2",
+    "support": "Non-LTS",
+    "link": "https://developers.redhat.com/blog/2021/04/14/mandrel-a-specialized-distribution-of-graalvm-for-quarkus#",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/7f7e6b6bf90f2af927c41fbe962642b4/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Mandrel",
+    "distribution_version": "24.2.2",
+    "java_version": "24.2.2",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "mandrel-24.2.2",
+    "support": "Non-LTS",
+    "link": "https://developers.redhat.com/blog/2021/04/14/mandrel-a-specialized-distribution-of-graalvm-for-quarkus#",
+    "operating_system": "linux",
+    "architecture": "amd64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/16a13043f4797d6081402bae8e8c4306/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Mandrel",
+    "distribution_version": "24.2.2",
+    "java_version": "24.2.2",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "mandrel-24.2.2",
+    "support": "Non-LTS",
+    "link": "https://developers.redhat.com/blog/2021/04/14/mandrel-a-specialized-distribution-of-graalvm-for-quarkus#",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/23962737d43d7dfc958771fc05997a44/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -39229,6 +39663,34 @@
   },
   {
     "distribution": "OpenLogic",
+    "distribution_version": "11.0.28",
+    "java_version": "11.0.28+6",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "openlogic-11.0.28",
+    "support": "LTS",
+    "link": "https://www.openlogic.com",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/ed2bb2f9b86cfb612d23859394242cde/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "OpenLogic",
+    "distribution_version": "11.0.28",
+    "java_version": "11.0.28+6",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "openlogic-11.0.28",
+    "support": "LTS",
+    "link": "https://www.openlogic.com",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/fdcd7838d521bf617cd3e393588f31f3/redirect",
+    "archive_type": "zip"
+  },
+  {
+    "distribution": "OpenLogic",
     "distribution_version": "11.0.8",
     "java_version": "11.0.8+10",
     "major_version": 11,
@@ -39421,6 +39883,34 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/8cda686acaa7dd8b2595e9c442364cf7/redirect",
+    "archive_type": "zip"
+  },
+  {
+    "distribution": "OpenLogic",
+    "distribution_version": "17.0.16",
+    "java_version": "17.0.16+8",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "openlogic-17.0.16",
+    "support": "LTS",
+    "link": "https://www.openlogic.com",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/8d455eb48757ded28b11fcde62060d13/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "OpenLogic",
+    "distribution_version": "17.0.16",
+    "java_version": "17.0.16+8",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "openlogic-17.0.16",
+    "support": "LTS",
+    "link": "https://www.openlogic.com",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/e9eae8149754ad574b3ec06515fa01c3/redirect",
     "archive_type": "zip"
   },
   {
@@ -39701,6 +40191,34 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/7f190ee898f478be1a936e6a6ba3b938/redirect",
+    "archive_type": "zip"
+  },
+  {
+    "distribution": "OpenLogic",
+    "distribution_version": "21.0.8",
+    "java_version": "21.0.8+9",
+    "major_version": 21,
+    "javafx_bundled": false,
+    "identifier": "openlogic-21.0.8",
+    "support": "LTS",
+    "link": "https://www.openlogic.com",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/8610399acddc39112b19834d660a066a/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "OpenLogic",
+    "distribution_version": "21.0.8",
+    "java_version": "21.0.8+9",
+    "major_version": 21,
+    "javafx_bundled": false,
+    "identifier": "openlogic-21.0.8",
+    "support": "LTS",
+    "link": "https://www.openlogic.com",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/5f90e0f8782e482508e89316d2651274/redirect",
     "archive_type": "zip"
   },
   {
@@ -40387,6 +40905,48 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/5ef7984f78ab0fade413b5dd37419184/redirect",
+    "archive_type": "zip"
+  },
+  {
+    "distribution": "OpenLogic",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "openlogic-8.0.462",
+    "support": "LTS",
+    "link": "https://www.openlogic.com",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/25f6a9f90c796c7182f6f4b94ca777f6/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "OpenLogic",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "openlogic-8.0.462",
+    "support": "LTS",
+    "link": "https://www.openlogic.com",
+    "operating_system": "linux",
+    "architecture": "x86",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c0e6df7a66f93d81d0822cc8288c6194/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "OpenLogic",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "openlogic-8.0.462",
+    "support": "LTS",
+    "link": "https://www.openlogic.com",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/ee7c6dd0f7c2e42edd73cf01a4c967a0/redirect",
     "archive_type": "zip"
   },
   {
@@ -42953,6 +43513,20 @@
   },
   {
     "distribution": "Oracle OpenJDK",
+    "distribution_version": "11.0.16",
+    "java_version": "11.0.16+8",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "oracle_open_jdk-11.0.16",
+    "support": "LTS",
+    "link": "https://openjdk.org/",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/288d17103d016678905326d6a17298a9/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Oracle OpenJDK",
     "distribution_version": "11.0.2",
     "java_version": "11.0.2+9",
     "major_version": 11,
@@ -44699,6 +45273,20 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/fde3d1826b07cdedcc04fec7a90a9ff1/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Oracle OpenJDK",
+    "distribution_version": "23.0.2",
+    "java_version": "23.0.2+7",
+    "major_version": 23,
+    "javafx_bundled": false,
+    "identifier": "oracle_open_jdk-23.0.2",
+    "support": "Non-LTS",
+    "link": "https://openjdk.org/",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/beda89b1be02ea780fd9411f0bebeb24/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -55987,6 +56575,90 @@
   },
   {
     "distribution": "Semeru",
+    "distribution_version": "24.0.2",
+    "java_version": "24.0.2",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "semeru-24.0.2",
+    "support": "Non-LTS",
+    "link": "https://developer.ibm.com/languages/java/semeru-runtimes/",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/fef81e35e4f2e0ce2cabd1835029763a/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Semeru",
+    "distribution_version": "24.0.2",
+    "java_version": "24.0.2",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "semeru-24.0.2",
+    "support": "Non-LTS",
+    "link": "https://developer.ibm.com/languages/java/semeru-runtimes/",
+    "operating_system": "linux",
+    "architecture": "ppc64le",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/fe97a8a9ae1ac99d8eaf0e56bf0f6fc0/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Semeru",
+    "distribution_version": "24.0.2",
+    "java_version": "24.0.2",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "semeru-24.0.2",
+    "support": "Non-LTS",
+    "link": "https://developer.ibm.com/languages/java/semeru-runtimes/",
+    "operating_system": "linux",
+    "architecture": "s390x",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/eea8b959b07c194bb65e32e925f4fb21/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Semeru",
+    "distribution_version": "24.0.2",
+    "java_version": "24.0.2",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "semeru-24.0.2",
+    "support": "Non-LTS",
+    "link": "https://developer.ibm.com/languages/java/semeru-runtimes/",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/003886fc1e0aa7ea06f18b7ba038b8f5/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Semeru",
+    "distribution_version": "24.0.2",
+    "java_version": "24.0.2",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "semeru-24.0.2",
+    "support": "Non-LTS",
+    "link": "https://developer.ibm.com/languages/java/semeru-runtimes/",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/07395814964cfce0c83140d7c37f1ac2/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Semeru",
+    "distribution_version": "24.0.2",
+    "java_version": "24.0.2",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "semeru-24.0.2",
+    "support": "Non-LTS",
+    "link": "https://developer.ibm.com/languages/java/semeru-runtimes/",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/86a20617f02c7545e7e37f1d5de7e962/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Semeru",
     "distribution_version": "8.0.302",
     "java_version": "8.0.302+8",
     "major_version": 8,
@@ -57724,7 +58396,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "11.0.28",
-    "java_version": "11.0.28",
+    "java_version": "11.0.28+6",
     "major_version": 11,
     "javafx_bundled": false,
     "identifier": "semeru_certified-11.0.28",
@@ -57738,7 +58410,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "11.0.28",
-    "java_version": "11.0.28",
+    "java_version": "11.0.28+6",
     "major_version": 11,
     "javafx_bundled": false,
     "identifier": "semeru_certified-11.0.28",
@@ -57752,7 +58424,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "11.0.28",
-    "java_version": "11.0.28",
+    "java_version": "11.0.28+6",
     "major_version": 11,
     "javafx_bundled": false,
     "identifier": "semeru_certified-11.0.28",
@@ -57766,7 +58438,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "11.0.28",
-    "java_version": "11.0.28",
+    "java_version": "11.0.28+6",
     "major_version": 11,
     "javafx_bundled": false,
     "identifier": "semeru_certified-11.0.28",
@@ -57892,7 +58564,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "17.0.16",
-    "java_version": "17.0.16",
+    "java_version": "17.0.16+8",
     "major_version": 17,
     "javafx_bundled": false,
     "identifier": "semeru_certified-17.0.16",
@@ -57906,7 +58578,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "17.0.16",
-    "java_version": "17.0.16",
+    "java_version": "17.0.16+8",
     "major_version": 17,
     "javafx_bundled": false,
     "identifier": "semeru_certified-17.0.16",
@@ -57920,7 +58592,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "17.0.16",
-    "java_version": "17.0.16",
+    "java_version": "17.0.16+8",
     "major_version": 17,
     "javafx_bundled": false,
     "identifier": "semeru_certified-17.0.16",
@@ -57934,7 +58606,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "17.0.16",
-    "java_version": "17.0.16",
+    "java_version": "17.0.16+8",
     "major_version": 17,
     "javafx_bundled": false,
     "identifier": "semeru_certified-17.0.16",
@@ -58060,7 +58732,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "21.0.8",
-    "java_version": "21.0.8",
+    "java_version": "21.0.8+9",
     "major_version": 21,
     "javafx_bundled": false,
     "identifier": "semeru_certified-21.0.8",
@@ -58074,7 +58746,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "21.0.8",
-    "java_version": "21.0.8",
+    "java_version": "21.0.8+9",
     "major_version": 21,
     "javafx_bundled": false,
     "identifier": "semeru_certified-21.0.8",
@@ -58088,7 +58760,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "21.0.8",
-    "java_version": "21.0.8",
+    "java_version": "21.0.8+9",
     "major_version": 21,
     "javafx_bundled": false,
     "identifier": "semeru_certified-21.0.8",
@@ -58102,7 +58774,7 @@
   {
     "distribution": "Semeru certified",
     "distribution_version": "21.0.8",
-    "java_version": "21.0.8",
+    "java_version": "21.0.8+9",
     "major_version": 21,
     "javafx_bundled": false,
     "identifier": "semeru_certified-21.0.8",
@@ -60967,6 +61639,20 @@
     "operating_system": "linux",
     "architecture": "aarch64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/368e8384c1697dc3e24a6bdaeb00faac/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Temurin",
+    "distribution_version": "17.0.16",
+    "java_version": "17.0.16+8",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "temurin-17.0.16",
+    "support": "LTS",
+    "link": "https://adoptium.net/temurin/releases",
+    "operating_system": "linux",
+    "architecture": "arm",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/7503599c4c6199091f09e93566addeab/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -64535,6 +65221,20 @@
     "support": "Non-LTS",
     "link": "https://adoptium.net/temurin/releases",
     "operating_system": "linux",
+    "architecture": "s390x",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/652dc7eef5a20ae22c457f97fd85b966/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Temurin",
+    "distribution_version": "24.0.2",
+    "java_version": "24.0.2+12",
+    "major_version": 24,
+    "javafx_bundled": false,
+    "identifier": "temurin-24.0.2",
+    "support": "Non-LTS",
+    "link": "https://adoptium.net/temurin/releases",
+    "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/142275426828782307ee11b6a881d8d9/redirect",
     "archive_type": "tar.gz"
@@ -65767,6 +66467,20 @@
     "support": "LTS",
     "link": "https://adoptium.net/temurin/releases",
     "operating_system": "linux",
+    "architecture": "arm",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/4c56e1f53bbceaabefe822496b141e53/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Temurin",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "temurin-8.0.462",
+    "support": "LTS",
+    "link": "https://adoptium.net/temurin/releases",
+    "operating_system": "linux",
     "architecture": "ppc64le",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/2023bdcde840a31be39844b997581fb5/redirect",
     "archive_type": "tar.gz"
@@ -65783,6 +66497,20 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/20eaba19a82279505f9bdb33913e94d7/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Temurin",
+    "distribution_version": "8.0.462",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "temurin-8.0.462",
+    "support": "LTS",
+    "link": "https://adoptium.net/temurin/releases",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/55f32107bcf3eebb1a250c64e6f351f1/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -65978,7 +66706,7 @@
     "link": "https://github.com/TravaOpenJDK",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/fde124c72246300a6cbd80047609497c/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/98060abadebb38195b76b94531b60796/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -66389,6 +67117,20 @@
   },
   {
     "distribution": "Zulu",
+    "distribution_version": "11.1.8",
+    "java_version": "11+28",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "zulu-11.1.8",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "arm",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/2a963adea1334616c952a90cf159302e/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
     "distribution_version": "11.2.3",
     "java_version": "11.0.1",
     "major_version": 11,
@@ -66553,20 +67295,6 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/0765782c4d0da05bb0a3042cd99e44a4/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "Zulu",
-    "distribution_version": "11.31.11",
-    "java_version": "11.0.3+7",
-    "major_version": 11,
-    "javafx_bundled": true,
-    "identifier": "zulu-11.31.11-fx",
-    "support": "LTS",
-    "link": "https://www.azul.com/downloads/?package=jdk",
-    "operating_system": "linux",
-    "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/37725137e44fdd3583e9959624ec7519/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -66984,6 +67712,20 @@
     "identifier": "zulu-11.39.15-fx",
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/3d7a798f5e3f0f287d54bd473bbc08fd/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.39.15",
+    "java_version": "11.0.7+10",
+    "major_version": 11,
+    "javafx_bundled": true,
+    "identifier": "zulu-11.39.15-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/13f69cae6415d1c4cf9a28c97281fca8/redirect",
@@ -67322,8 +68064,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/ad9b643ff0dd4ab65c2ff8fa1d7ad28d/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/75f55e22ca634f0a39bc88fcff49b9c1/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -68064,8 +68806,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/a222483f1ef15dcf3c396fdaca09a954/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/39ae3f8317b3a3a20ec49bd4eb90a937/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -68149,20 +68891,6 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/750144aea4a50a9ba22df3863e8711b5/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "Zulu",
-    "distribution_version": "11.54.25",
-    "java_version": "11.0.14.1+1",
-    "major_version": 11,
-    "javafx_bundled": true,
-    "identifier": "zulu-11.54.25-fx",
-    "support": "LTS",
-    "link": "https://www.azul.com/downloads/?package=jdk",
-    "operating_system": "linux",
-    "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/5525c735d17e9cf471afeb083b55ef5d/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -68372,7 +69100,7 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/156a95b554514a3757e50375cc70bb1e/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/20444e280f943ccd59aed2ed33d84c1a/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -68485,6 +69213,20 @@
     "operating_system": "linux",
     "architecture": "x86",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/986c3194764539f0ba4193fc54ac0dfb/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.58.23",
+    "java_version": "11.0.16.1+1",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "zulu-11.58.23",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/25679a2b8b854ccd5dae4b5a9dd7afa6/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -68874,6 +69616,20 @@
     "identifier": "zulu-11.62.17-fx",
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x86",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/eda9cb52fdf86c427978d710d7ac7f72/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.62.17",
+    "java_version": "11.0.18+10",
+    "major_version": 11,
+    "javafx_bundled": true,
+    "identifier": "zulu-11.62.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "aarch64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/7d3f3720d035d45ecd59c6b693dabd0d/redirect",
@@ -68987,6 +69743,20 @@
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/169acc9cf8df7ba0da2553dafc767f8b/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.64.19",
+    "java_version": "11.0.19+7",
+    "major_version": 11,
+    "javafx_bundled": true,
+    "identifier": "zulu-11.64.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
     "architecture": "x86",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/13c6ed718bfb06120b1a1fadddc75497/redirect",
     "archive_type": "tar.gz"
@@ -69002,8 +69772,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "aarch64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/6ad6d9a928e7070e16185a7260be7215/redirect",
-    "archive_type": "tar.gz"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/7ad6f6b305d1376e0fff7651c288ee25/redirect",
+    "archive_type": "zip"
   },
   {
     "distribution": "Zulu",
@@ -69772,7 +70542,7 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "arm",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/019767dcc68288b30d6a3ef15d2a6705/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/f0374ac24fe07a2515be5d97c7dec01e/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -69829,20 +70599,6 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c37cfccb6180fe0aa9dbdc8dbb594016/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "Zulu",
-    "distribution_version": "11.74.15",
-    "java_version": "11.0.24+8",
-    "major_version": 11,
-    "javafx_bundled": true,
-    "identifier": "zulu-11.74.15-fx",
-    "support": "LTS",
-    "link": "https://www.azul.com/downloads/?package=jdk",
-    "operating_system": "linux",
-    "architecture": "aarch64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/301ea49a67f183364c474021020ddc88/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -70317,20 +71073,6 @@
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
-    "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/00796a59367ebbed71a855899bbeebed/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "Zulu",
-    "distribution_version": "11.80.21",
-    "java_version": "11.0.27+6",
-    "major_version": 11,
-    "javafx_bundled": true,
-    "identifier": "zulu-11.80.21-fx",
-    "support": "LTS",
-    "link": "https://www.azul.com/downloads/?package=jdk",
-    "operating_system": "linux",
     "architecture": "x86",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/edaed4b982e63cb9bec5d5935c7853e6/redirect",
     "archive_type": "tar.gz"
@@ -70387,6 +71129,20 @@
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
+    "architecture": "arm",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/dee1d26863867841719148abfbbc3ef7/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.82.19",
+    "java_version": "11.0.28+6",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "zulu-11.82.19",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/2530c99d9074e8ad1c0b154ead132004/redirect",
     "archive_type": "tar.gz"
@@ -70431,6 +71187,76 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c237676303f88c98eae6c95724ba87f0/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.82.19",
+    "java_version": "11.0.28+6",
+    "major_version": 11,
+    "javafx_bundled": true,
+    "identifier": "zulu-11.82.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/507a9986159e2cfd4e3860aecf7dd03a/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.82.19",
+    "java_version": "11.0.28+6",
+    "major_version": 11,
+    "javafx_bundled": true,
+    "identifier": "zulu-11.82.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c9e00ad2702f958ebba26a6da32a6220/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.82.19",
+    "java_version": "11.0.28+6",
+    "major_version": 11,
+    "javafx_bundled": true,
+    "identifier": "zulu-11.82.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x86",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/cb86f299db5df9f6f296781666c730b9/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.82.19",
+    "java_version": "11.0.28+6",
+    "major_version": 11,
+    "javafx_bundled": true,
+    "identifier": "zulu-11.82.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/6ddf52223b5bd7b177f50c0c07f23f6a/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "11.82.19",
+    "java_version": "11.0.28+6",
+    "major_version": 11,
+    "javafx_bundled": true,
+    "identifier": "zulu-11.82.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/55cb11e68ec06e2e4396d3a91f152e4b/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -70498,6 +71324,20 @@
     "identifier": "zulu-12.2.3",
     "support": "Non-LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x86",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/365fb91f2b69193f9797d5a2d6f93c65/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "12.2.3",
+    "java_version": "12.0.1+12",
+    "major_version": 12,
+    "javafx_bundled": false,
+    "identifier": "zulu-12.2.3",
+    "support": "Non-LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/eb9d6f3fbb6fe4c2eaa81f4d7159f44d/redirect",
@@ -70514,7 +71354,7 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/e0dc087eeddf27077cff6fd2dc3a9293/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/ff93b3c052a6656875e6fe4e974d9675/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -70598,7 +71438,7 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/97b1d20ca5a8428cb4829209d62d5ac8/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/6566a1210e75d01f4b56d2fbfe21cf76/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -70682,7 +71522,7 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/0d35180adbc84b5613ea56b06c5d8d63/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/f2ef9083d4142e13027a6071e13fe954/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -70855,6 +71695,20 @@
   },
   {
     "distribution": "Zulu",
+    "distribution_version": "13.33.25",
+    "java_version": "13.0.4+8",
+    "major_version": 13,
+    "javafx_bundled": true,
+    "identifier": "zulu-13.33.25-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/89ab8597efcde48ddbc74cd9b69822b5/redirect",
+    "archive_type": "zip"
+  },
+  {
+    "distribution": "Zulu",
     "distribution_version": "13.33.38",
     "java_version": "13.0.4+8",
     "major_version": 13,
@@ -70920,8 +71774,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "aarch64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/f7391828e48c4dc67e1fb1f58abf3cd0/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/eeb214bd33a9c327108dc5017ebb4656/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -71620,8 +72474,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/1a574a33b39758af3a20f469f0d4a014/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/0284dbebf7bd0b2d3e51a3a1d88c36cb/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -71858,8 +72712,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "aarch64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/be86ff0a6054b61ebd58cb5a06cf5070/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/d74d777abce67e836a6a6152081e17b9/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -72405,20 +73259,6 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/801aed1b7a447f2dd686881b658bf3fd/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "Zulu",
-    "distribution_version": "15.27.17",
-    "java_version": "15+36",
-    "major_version": 15,
-    "javafx_bundled": false,
-    "identifier": "zulu-15.27.17",
-    "support": "LTS",
-    "link": "https://www.azul.com/downloads/?package=jdk",
-    "operating_system": "linux",
-    "architecture": "aarch64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/f045740c320f40174a6bcdc0a833f54d/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -74350,8 +75190,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/9f0889c98974e8ba52a274e833f0d347/redirect",
-    "archive_type": "tar.gz"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/d4a72ea6b754aa4925f40b210cc107be/redirect",
+    "archive_type": "zip"
   },
   {
     "distribution": "Zulu",
@@ -76029,20 +76869,6 @@
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
-    "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/26d1f5523767098c2683b8e319ec4298/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "Zulu",
-    "distribution_version": "17.48.15",
-    "java_version": "17.0.10+7",
-    "major_version": 17,
-    "javafx_bundled": true,
-    "identifier": "zulu-17.48.15-fx",
-    "support": "LTS",
-    "link": "https://www.azul.com/downloads/?package=jdk",
-    "operating_system": "linux",
     "architecture": "x86",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/1093a5ea4cd35f8938cda57d18534251/redirect",
     "archive_type": "tar.gz"
@@ -76072,8 +76898,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/73e616c3dd1e3e8c021db00bffc9a947/redirect",
-    "archive_type": "tar.gz"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/8a359e93a7ba2a1f948fda354ec70728/redirect",
+    "archive_type": "zip"
   },
   {
     "distribution": "Zulu",
@@ -76325,20 +77151,6 @@
     "operating_system": "linux",
     "architecture": "aarch64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/a67f268ae447220207e36c3f2e5d8cb9/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "Zulu",
-    "distribution_version": "17.52.17",
-    "java_version": "17.0.12+7",
-    "major_version": 17,
-    "javafx_bundled": true,
-    "identifier": "zulu-17.52.17-fx",
-    "support": "LTS",
-    "link": "https://www.azul.com/downloads/?package=jdk",
-    "operating_system": "linux",
-    "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/cd1c11d295eec437f211200474ceebba/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -76869,6 +77681,20 @@
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
+    "architecture": "arm",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/981feebb3bbf1fafd4717405e3fe42ee/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "17.60.17",
+    "java_version": "17.0.16+8",
+    "major_version": 17,
+    "javafx_bundled": false,
+    "identifier": "zulu-17.60.17",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/f5f29dc405e79ceb07d14228f79295c7/redirect",
     "archive_type": "tar.gz"
@@ -76913,6 +77739,76 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/afa17947827c5fa54524233d9a570c5f/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "17.60.17",
+    "java_version": "17.0.16+8",
+    "major_version": 17,
+    "javafx_bundled": true,
+    "identifier": "zulu-17.60.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c9b41c0175f871a45390915912149ace/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "17.60.17",
+    "java_version": "17.0.16+8",
+    "major_version": 17,
+    "javafx_bundled": true,
+    "identifier": "zulu-17.60.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/00649d8d30b78f5d946423f95ee3ebe3/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "17.60.17",
+    "java_version": "17.0.16+8",
+    "major_version": 17,
+    "javafx_bundled": true,
+    "identifier": "zulu-17.60.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x86",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/7eeb54b64466d8eda5b7ef3541a8d13e/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "17.60.17",
+    "java_version": "17.0.16+8",
+    "major_version": 17,
+    "javafx_bundled": true,
+    "identifier": "zulu-17.60.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/7a52e3c869128d90a286c552591f7fcf/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "17.60.17",
+    "java_version": "17.0.16+8",
+    "major_version": 17,
+    "javafx_bundled": true,
+    "identifier": "zulu-17.60.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/785cd1a347e6cc9a063d0bfe7225c10f/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -78947,6 +79843,62 @@
   },
   {
     "distribution": "Zulu",
+    "distribution_version": "21.44.17",
+    "java_version": "21.0.8+9",
+    "major_version": 21,
+    "javafx_bundled": true,
+    "identifier": "zulu-21.44.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/2636e4ef992eab2ec1cdafb671a63ab3/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "21.44.17",
+    "java_version": "21.0.8+9",
+    "major_version": 21,
+    "javafx_bundled": true,
+    "identifier": "zulu-21.44.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c3b444f8d428b50cbbd2d3f0bb7d15c0/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "21.44.17",
+    "java_version": "21.0.8+9",
+    "major_version": 21,
+    "javafx_bundled": true,
+    "identifier": "zulu-21.44.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/0188dd42db1cf31a8f9047ccbc74bfd7/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "21.44.17",
+    "java_version": "21.0.8+9",
+    "major_version": 21,
+    "javafx_bundled": true,
+    "identifier": "zulu-21.44.17-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/2c7a3d99fb4d6b5bc7d1d507b3af77b9/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
     "distribution_version": "22.0.43",
     "java_version": "22+16",
     "major_version": 22,
@@ -80048,8 +81000,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "aarch64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/702781473ddff3f95e0541b93cc54e7c/redirect",
-    "archive_type": "tar.gz"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c137e743e4ff0d1a85018b9bff6622c3/redirect",
+    "archive_type": "zip"
   },
   {
     "distribution": "Zulu",
@@ -84771,6 +85723,62 @@
   },
   {
     "distribution": "Zulu",
+    "distribution_version": "24.32.13",
+    "java_version": "24.0.2+12",
+    "major_version": 24,
+    "javafx_bundled": true,
+    "identifier": "zulu-24.32.13-fx",
+    "support": "Non-LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/9fa82c5ea525a5a6919b969f631ae9a8/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "24.32.13",
+    "java_version": "24.0.2+12",
+    "major_version": 24,
+    "javafx_bundled": true,
+    "identifier": "zulu-24.32.13-fx",
+    "support": "Non-LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/902ef81bafffcd1670604d74b6c7a6b0/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "24.32.13",
+    "java_version": "24.0.2+12",
+    "major_version": 24,
+    "javafx_bundled": true,
+    "identifier": "zulu-24.32.13-fx",
+    "support": "Non-LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/5eb4f9359e0b3045a95f1f73a531c906/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "24.32.13",
+    "java_version": "24.0.2+12",
+    "major_version": 24,
+    "javafx_bundled": true,
+    "identifier": "zulu-24.32.13-fx",
+    "support": "Non-LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/9da1b506c0f0e57955c97cb524263718/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
     "distribution_version": "6.10.0.3",
     "java_version": "6.0.73+73",
     "major_version": 6,
@@ -86278,8 +87286,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/2cff2cd2ac85fea68b270a0f1eaccba2/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/68ba36a916ad9efe29d548f5634587c3/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -87298,6 +88306,20 @@
     "identifier": "zulu-8.36.0.1-fx",
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/6046e303e07ecf14a424657fbfed7eae/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "8.36.0.1",
+    "java_version": "8.0.202+5",
+    "major_version": 8,
+    "javafx_bundled": true,
+    "identifier": "zulu-8.36.0.1-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/5f44b399e9dadc374b1b38666bc01530/redirect",
@@ -87944,7 +88966,7 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "ppc",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/72ce7910dda7d7288f2bb7296cd6eb7c/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/029fdf21f960e9864e28d3ce8f956274/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -87986,8 +89008,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "x86",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/4fc5d8ca225bc92d187f0885043889fc/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/218260a43510e97708a74fa378dd9173/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -88126,7 +89148,7 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "ppc",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/90951521208c0d1a1714136a7b1ff4d2/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/22ef4c6844572150abf43cfe9a197ff0/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -88265,20 +89287,6 @@
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
-    "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/b8ab26618f14cc6f8fafc024c8687975/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "Zulu",
-    "distribution_version": "8.48.0.51",
-    "java_version": "8.0.262+19",
-    "major_version": 8,
-    "javafx_bundled": true,
-    "identifier": "zulu-8.48.0.51-fx",
-    "support": "LTS",
-    "link": "https://www.azul.com/downloads/?package=jdk",
-    "operating_system": "linux",
     "architecture": "x86",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/6eb9c1a51afed33dab26f449bdd29be0/redirect",
     "archive_type": "tar.gz"
@@ -88322,8 +89330,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "x86",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/12ad6b303c977121100df4fe9f36c8a4/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/33790d8f9b8d0798cf1ee8cc986bf158/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -88351,20 +89359,6 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/1adfa4c88c1c23b02ebc49cf5a3389fd/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "Zulu",
-    "distribution_version": "8.48.0.53",
-    "java_version": "8.0.265+11",
-    "major_version": 8,
-    "javafx_bundled": true,
-    "identifier": "zulu-8.48.0.53-fx",
-    "support": "LTS",
-    "link": "https://www.azul.com/downloads/?package=jdk",
-    "operating_system": "linux",
-    "architecture": "x86",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/514959764eb3a5d26ef691b1c19e5d9b/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -88938,8 +89932,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/d302c247206380e3c6a785ceb2227973/redirect",
-    "archive_type": "tar.gz"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/19192dfce5839a15df92563fdd3ab6ca/redirect",
+    "archive_type": "zip"
   },
   {
     "distribution": "Zulu",
@@ -91220,8 +92214,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "aarch64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/811b9c7c2831f8920f1d6f1bf51503c7/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/9c415cd006c2687e54b64471d496007a/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -91570,8 +92564,8 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "macos",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/f3d6d640d1a191d26f3c50b3d72525f1/redirect",
-    "archive_type": "zip"
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/3f42ef71ea0babca9ed8b849da0c40e4/redirect",
+    "archive_type": "tar.gz"
   },
   {
     "distribution": "Zulu",
@@ -91961,6 +92955,34 @@
     "support": "LTS",
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
+    "architecture": "arm",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/11a06f68e5c6d4b3e29a4fbf3b742595/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "8.88.0.19",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "zulu-8.88.0.19",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "ppc64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/8f1f9f7218025591cc9980667db6b2f9/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "8.88.0.19",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": false,
+    "identifier": "zulu-8.88.0.19",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/26d531fc8fdc954d01f92f0d5afa800b/redirect",
     "archive_type": "tar.gz"
@@ -92005,6 +93027,76 @@
     "operating_system": "macos",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/49ea215005e69f82e4b53b775a9a4aa5/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "8.88.0.19",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": true,
+    "identifier": "zulu-8.88.0.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/2345b746f9e2745be0d7a6cb4b481528/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "8.88.0.19",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": true,
+    "identifier": "zulu-8.88.0.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/edb537ee7314eded8527b4c7d9e88a0c/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "8.88.0.19",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": true,
+    "identifier": "zulu-8.88.0.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "linux",
+    "architecture": "x86",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/dce313f1bc9319fe3f585186a0f6da37/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "8.88.0.19",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": true,
+    "identifier": "zulu-8.88.0.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/58a659645c3a4c9e16d3fcd68b14f9a0/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "Zulu",
+    "distribution_version": "8.88.0.19",
+    "java_version": "8.0.462+8",
+    "major_version": 8,
+    "javafx_bundled": true,
+    "identifier": "zulu-8.88.0.19-fx",
+    "support": "LTS",
+    "link": "https://www.azul.com/downloads/?package=jdk",
+    "operating_system": "macos",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/bb15d2a0c45364c20dc75f1fe9289ddc/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -92130,7 +93222,7 @@
     "link": "https://www.azul.com/downloads/?package=jdk",
     "operating_system": "linux",
     "architecture": "x86",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/6dd39660a880c3c03e91d99ccd22c0a9/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/17446d8f3eb10d77b8f9e75f4dd74ad3/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -92299,6 +93391,20 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/d38d77caaae9d4325534d81c93b2bd73/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "ZuluPrime",
+    "distribution_version": "13.0.9",
+    "java_version": "13.0.9",
+    "major_version": 13,
+    "javafx_bundled": false,
+    "identifier": "zulu_prime-13.0.9",
+    "support": "LTS",
+    "link": "https://www.azul.com/products/prime/stream-download/",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/b4db6ee6001ea14a5c13acfb8d3b48ac/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -92668,15 +93774,15 @@
   {
     "distribution": "ZuluPrime",
     "distribution_version": "23.10",
-    "java_version": "21.0.1+11",
-    "major_version": 21,
+    "java_version": "8.0.392+3",
+    "major_version": 8,
     "javafx_bundled": false,
     "identifier": "zulu_prime-23.10",
     "support": "LTS",
     "link": "https://www.azul.com/products/prime/stream-download/",
     "operating_system": "linux",
     "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/6ba5991afbdba28886d9e27cd2354c17/redirect",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/134a7af89473c50048995a4bb190728a/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -92789,20 +93895,6 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/336e97208369e96c7ef95dca082f0838/redirect",
-    "archive_type": "tar.gz"
-  },
-  {
-    "distribution": "ZuluPrime",
-    "distribution_version": "23.8",
-    "java_version": "17.0.8+1",
-    "major_version": 17,
-    "javafx_bundled": false,
-    "identifier": "zulu_prime-23.8",
-    "support": "LTS",
-    "link": "https://www.azul.com/products/prime/stream-download/",
-    "operating_system": "linux",
-    "architecture": "x64",
-    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/3b4d2f7c7b3589130924f60bdc542ee2/redirect",
     "archive_type": "tar.gz"
   },
   {
@@ -93237,6 +94329,34 @@
     "operating_system": "linux",
     "architecture": "x64",
     "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/ad171fb093bec3c70bc40b27f8574c46/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "ZuluPrime",
+    "distribution_version": "25.7",
+    "java_version": "11.0.27+1",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "zulu_prime-25.7",
+    "support": "LTS",
+    "link": "https://www.azul.com/products/prime/stream-download/",
+    "operating_system": "linux",
+    "architecture": "aarch64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/c7f625ae367ff49b54de7580292b6426/redirect",
+    "archive_type": "tar.gz"
+  },
+  {
+    "distribution": "ZuluPrime",
+    "distribution_version": "25.7",
+    "java_version": "11.0.27+1",
+    "major_version": 11,
+    "javafx_bundled": false,
+    "identifier": "zulu_prime-25.7",
+    "support": "LTS",
+    "link": "https://www.azul.com/products/prime/stream-download/",
+    "operating_system": "linux",
+    "architecture": "x64",
+    "indirect_download_uri": "https://api.foojay.io/disco/v3.0/ids/ad517c01e9e314e54effb3bdaaca4cf0/redirect",
     "archive_type": "tar.gz"
   },
   {
